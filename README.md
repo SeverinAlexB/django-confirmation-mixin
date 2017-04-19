@@ -27,7 +27,7 @@ In this default case for example:
 * 'exampleapp/examplemodel_form.html' is the update template
 * 'exampleapp/examplemodel_confirm_form.html' is the confirmation template
 
-The suffixes might also be changed by using the **_template_name_suffix_** and the **_confirm_template_suffix_**.
+The suffixes can also be changed by using the **_template_name_suffix_** and the **_confirm_template_suffix_**.
 ```python
 from django.views.generic import CreateView
 from django_confirmation_mixin import CreateConfirmationMixin
