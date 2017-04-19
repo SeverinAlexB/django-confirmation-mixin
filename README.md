@@ -23,7 +23,7 @@ class ExampleUpdateView(UpdateConfirmationMixin, UpdateView):
 ```
 The mixin automatically uses the _**_form**_ suffix for the usual update template and the _**_confirm_form**_ suffix for the confirmation template. This behavious is derived from the [DeleteView](https://docs.djangoproject.com/en/1.11/ref/class-based-views/generic-editing/#django.views.generic.edit.DeleteView.template_name_suffix).
 
-For example:
+In this default case for example:
 * 'exampleapp/examplemodel_form.html' is the update template
 * 'exampleapp/examplemodel_confirm_form.html' is the confirmation template
 
