@@ -6,14 +6,14 @@ The ConfirmationMixins makes it simply easy to show a confirmation page before a
 ## Install
 
 ```bash
-pip install django_confirmation_mixin
+pip install django-confirmation-mixin
 ```
 
 ## Usage
 Just use the ConfirmationMixin as a normal django mixin.
 ```python
-from django_confirmation_mixin import CreateConfirmationMixin, UpdateConfirmationMixin
 from django.views.generic import UpdateView, CreateView
+from django_confirmation_mixin import CreateConfirmationMixin, UpdateConfirmationMixin
 
 
 class ExampleUpdateView(UpdateConfirmationMixin, UpdateView):
@@ -29,8 +29,8 @@ In this default case for example:
 
 The suffixes might also be changed by using the **_template_name_suffix_** and the **_confirm_template_suffix_**.
 ```python
-from django_confirmation_mixin import CreateConfirmationMixin, UpdateConfirmationMixin
 from django.views.generic import UpdateView, CreateView
+from django_confirmation_mixin import CreateConfirmationMixin, UpdateConfirmationMixin
 
 
 class ExampleCreateView(CreateConfirmationMixin, CreateView):
